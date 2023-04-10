@@ -1,0 +1,413 @@
+div.home-contact {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav.dienthoai {
+    height: 50px;
+    margin: 0px 80px 0px 80px;
+    background-image: url(../images/bg-header.png);
+}
+
+a.dienthoai {
+    color: white;
+    font-size: 13px;
+}
+
+nav.trangchu {
+    height: 50px;
+    margin: 0px 80px 0px 80px;
+    background-image: url(../images/bg-header.png);
+}
+
+a.logo {
+    position: absolute;
+    top: -49px;
+}
+
+a.trangchu {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.slide1{
+    margin-top: 20px;
+    margin-left: 7.5%;
+    width: 85%;
+}
+
+div.gioithieu {
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(246, 242, 239);
+}
+
+h4.gioithieu {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: rgb(206, 28, 18);
+}
+
+h4.gioithieu-congty {
+    text-align: center;
+    color: rgb(1, 191, 98);
+}
+
+p.gioithieu-congty {
+    text-align: justify;
+}
+
+hr.hr-gioithieu {
+    border: solid;
+    border-width: 2px;
+}
+
+img.gioithieu {
+    width: 40px;
+    height: 40px;
+}
+
+img.hinhcongty {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+div.xemtiep {
+    float: right;
+    border: solid rgb(1, 191, 98);
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+}
+
+a.xemtiep:link,
+a.xemtiep:visited {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(206, 28, 18);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a.xemtiep:hover,
+a.xemtiep:active {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(1, 191, 98);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span.xemtiep {
+    color: rgb(1, 191, 98);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4.duandautu {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: rgb(206, 28, 18);
+}
+
+img.duandautu {
+    width: 40px;
+    height: 40px;
+}
+
+hr.hr-duandautu {
+    border: solid;
+    border-width: 2px;
+}
+
+div.duandautu {
+    padding-left: 100px;
+}
+
+div.hinhduan {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+img.hinhduan {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+hr.hinhduan {
+    color: black;
+    margin-bottom: 0px;
+}
+
+div.hinhduan-nho {
+    margin-bottom: 20px;
+}
+
+a.hinhduan:link,
+a.hinhduan:visited {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(1, 191, 98);
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+a.hinhduan:hover,
+a.hinhduan:active {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(1, 191, 98);
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+div.tuvan {
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(246, 242, 239);
+}
+
+img.tuvan {
+    width: 40px;
+    height: 40px;
+}
+
+h4.tuvan {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: rgb(206, 28, 18);
+}
+
+hr.hr-tuvan {
+    border: solid;
+    border-width: 2px;
+}
+
+ul.khucongnghiep {
+    list-style-type: none;
+    color: rgb(1, 191, 98);
+    font-size: 20px;
+}
+
+ul.hotline {
+    list-style-type: disc;
+    color: rgb(97, 63, 31);
+    font-size: 20px;
+}
+
+span.hotline {
+    font-weight: bold;
+}
+
+span.khucongnghiep {
+    font-weight: bold;
+}
+
+div.tuvan-hinhanh{
+    text-align: center;
+}
+
+img.tuvan-hinhanh {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+div.tintuc{
+    overflow: auto; /*hiển thị thanh cuộn để xem toàn bộ nội dung bị tràn ra khỏi thẻ div*/
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    background-color: rgb(232,232,224);
+}
+
+img.tintuc {
+    width: 40px;
+    height: 40px;
+}
+
+h4.tintuc {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: rgb(206, 28, 18);
+}
+
+hr.hr-tintuc {
+    border: solid;
+    border-width: 2px;
+    margin-top: 0px;
+}
+
+img.news {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+div.anhtintuc{
+    text-align: center;
+}
+
+img.anhtintuc{
+    border-radius: 10px;
+}
+
+p.tintuc{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+div.bao-bao-xemtiep1{
+    display: flex;
+    justify-content: center;
+}
+
+div.bao-xemtiep1{
+    width: 120px;
+}
+
+div.xemtiep1 {
+    border: solid rgb(1, 191, 98);
+    border-radius: 30px;
+}
+
+a.xemtiep1:link,
+a.xemtiep1:visited {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(206, 28, 18);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a.xemtiep1:hover,
+a.xemtiep1:active {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(1, 191, 98);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span.xemtiep1 {
+    color: rgb(1, 191, 98);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.tintuc-right{
+    border-left: groove;
+    margin-top: 70px;
+    height: 400px;
+}
+
+img.anhtinnho{
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 18%;
+    width: 28%;
+}
+
+div.tinnho{
+    display: flex;
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(206, 28, 18);
+}
+
+span.tinnho{
+    text-align: justify;
+    width: 100%;
+}
+
+a.tinnho:link,
+a.tinnho:visited {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(206, 28, 18);
+    font-size: 18px;
+    font-weight: bold;
+    transition: opacity 0s;
+}
+
+a.tinnho:hover,
+a.tinnho:active {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(206, 28, 18);
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+div.bao-tintuc-sukien{
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(246, 242, 239);
+}
+
+div.tintuc-sukien{
+    text-align: center;
+}
+
+h3.tintuc-sukien {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: rgb(206, 28, 18);
+}
+
+hr.hr-tintuc-sukien {
+    border: solid;
+    width: 50%;
+    margin-left: 25%;
+    border-width: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+    nav.dienthoai {
+        height: initial;
+        margin: initial;
+        background-image: url(../images/bg-header.png);
+    }
+
+    nav.trangchu {
+        height: initial;
+        margin: initial;
+        background-image: url(../images/bg-header.png);
+    }
+
+    a.logo {
+        position: initial;
+        top: initial;
+    }
+
+    img.banner {
+        width: initial;
+        margin-left: initial;
+        margin-top: 10px;
+    }
+
+    img.hinhduan {
+        width: initial;
+        height: initial;
+        border-radius: 20px;
+    }
+
+    img.tuvan-hinhanh {
+        width: initial;
+        height: initial;
+        margin-top: 20px;
+    }
+}
