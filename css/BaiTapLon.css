@@ -1,40 +1,58 @@
-div.home-contact {
-    font-weight: bold;
-    font-size: 14px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-nav.dienthoai {
-    height: 50px;
-    margin: 0px 80px 0px 80px;
-    background-image: url(../images/bg-header.png);
+a{
+    text-decoration: none !important;
 }
-
-a.dienthoai {
+/* Header */
+.header-top a{
+    color: #000;
+    margin-left: 20px;
+}
+.header-main{
+    border: 0.5px solid lightgray;
+    background-color: #c92116;
+}
+.header-main hr{
+    margin: 0;
+    height: 2px;
+    border: 1px;
+    background: linear-gradient(to right, transparent,#818078,#818078,#818078,#818078);
+}
+.header-main .contract{
+    margin: 10px 15px 5px;
+}
+.header-main .contract a:not(:first-child){
+    margin-left: 10px;
+}
+.header-main .link{
+    margin: 5px 15px 10px;
+    text-align: end;
+}
+.header-main .link a, .contract a{
     color: white;
-    font-size: 13px;
 }
-
-nav.trangchu {
-    height: 50px;
-    margin: 0px 80px 0px 80px;
-    background-image: url(../images/bg-header.png);
+.header-main .link a:not(:last-child){
+    margin-right: 25px;
 }
-
-a.logo {
-    position: absolute;
-    top: -49px;
+.container-fix{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-a.trangchu {
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-}
-
+/* End Header */
 div.slide1{
     margin-top: 20px;
     margin-left: 7.5%;
     width: 85%;
+}
+@media only screen and (max-width: 1140px){
+    div.slide1{
+    margin-left: 0;
+    width: 100%;
+    }
 }
 
 div.gioithieu {
@@ -246,10 +264,10 @@ hr.hr-tintuc {
 }
 
 img.news {
-    margin-left: 10px;
-    margin-bottom: 30px;
-    width: 40px;
-    height: 40px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 div.anhtintuc{
@@ -357,7 +375,7 @@ div.bao-tintuc-sukien{
     padding-right: 90px;
     background-color: rgb(246, 242, 239);
 }
-
+/* Tintuc-Sukien */
 div.tintuc-sukien{
     text-align: center;
 }
@@ -374,7 +392,37 @@ hr.hr-tintuc-sukien {
     margin-left: 25%;
     border-width: 2px;
 }
+div.btn-xem{
+    border: solid rgb(1, 191, 98);
+    border-radius: 30px;
 
+}
+.card img{
+    height: 200px;
+}
+.card .card-text{
+        font-size: 15px;
+}
+/* Footer */
+footer{
+    background-color: #c92116;
+    justify-content: center;
+}
+footer .social{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+footer .footer-contract p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+footer .footer-contract h5 ,.footer-contract a,.footer-contract p, .footer-social h5{
+    color: whitesmoke;
+}
+footer .footer-social{
+    font-family: Cursive,sans-serif;
+}
 @media screen and (max-width: 1200px) {
     nav.dienthoai {
         height: initial;
