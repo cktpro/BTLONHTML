@@ -1,57 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 /* Header */
-.header-top a{
+.header-top a {
     color: #000;
     margin-left: 20px;
 }
-.header-main{
+
+.header-main {
     border: 0.5px solid lightgray;
     background-color: #c92116;
 }
-.header-main hr{
+
+.header-main hr {
     margin: 0;
     height: 2px;
     border: 1px;
-    background: linear-gradient(to right, transparent,#818078,#818078,#818078,#818078);
+    background: linear-gradient(to right, transparent, #818078, #818078, #818078, #818078);
 }
-.header-main .contract{
+
+.header-main .contract {
     margin: 10px 15px 5px;
 }
-.header-main .contract a:not(:first-child){
+
+.header-main .contract a:not(:first-child) {
     margin-left: 10px;
 }
-.header-main .link{
+
+.header-main .link {
     margin: 5px 15px 10px;
     text-align: end;
 }
-.header-main .link a, .contract a{
+
+.header-main .link a,
+.contract a {
     color: white;
 }
-.header-main .link a:not(:last-child){
-    margin-right: 25px;
+
+.header-main .link a:not(:last-child) {
+    margin-right: 2%;
 }
-.container-fix{
+
+.container-fix {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
 }
+
 /* End Header */
-div.slide1{
+div.slide1 {
     margin-top: 20px;
     margin-left: 7.5%;
     width: 85%;
 }
-@media only screen and (max-width: 1140px){
-    div.slide1{
-    margin-left: 0;
-    width: 100%;
+
+@media only screen and (max-width: 1140px) {
+    div.slide1 {
+        margin-left: 0;
+        width: 100%;
     }
 }
 
@@ -97,6 +110,7 @@ div.xemtiep {
     border: solid rgb(1, 191, 98);
     border-radius: 30px;
     padding: 2px 10px 2px 10px;
+    margin-bottom: 10px;
 }
 
 a.xemtiep:link,
@@ -138,20 +152,10 @@ hr.hr-duandautu {
     border: solid;
     border-width: 2px;
 }
-
-div.duandautu {
-    padding-left: 100px;
-}
-
-div.hinhduan {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 img.hinhduan {
     width: 100%;
     height: 250px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 hr.hinhduan {
@@ -185,9 +189,7 @@ a.hinhduan:active {
 }
 
 div.tuvan {
-    margin-top: 20px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 20px 0 30px 0;
     background-color: rgb(246, 242, 239);
 }
 
@@ -227,7 +229,7 @@ span.khucongnghiep {
     font-weight: bold;
 }
 
-div.tuvan-hinhanh{
+div.tuvan-hinhanh {
     text-align: center;
 }
 
@@ -237,13 +239,11 @@ img.tuvan-hinhanh {
     margin-top: 20px;
 }
 
-div.tintuc{
-    overflow: auto; /*hiển thị thanh cuộn để xem toàn bộ nội dung bị tràn ra khỏi thẻ div*/
-    margin-top: 20px;
-    padding-left: 90px;
-    padding-right: 90px;
+div.tintuc {
+    overflow: auto;
+    /*hiển thị thanh cuộn để xem toàn bộ nội dung bị tràn ra khỏi thẻ div*/
     padding-bottom: 20px;
-    background-color: rgb(232,232,224);
+    background-color: rgb(232, 232, 224);
 }
 
 img.tintuc {
@@ -270,27 +270,27 @@ img.news {
     height: 30px;
 }
 
-div.anhtintuc{
+div.anhtintuc {
     text-align: center;
 }
 
-img.anhtintuc{
+img.anhtintuc {
     border-radius: 10px;
 }
 
-p.tintuc{
+p.tintuc {
     font-size: 18px;
     font-weight: 500;
     padding-left: 80px;
     padding-right: 80px;
 }
 
-div.bao-bao-xemtiep1{
+div.bao-bao-xemtiep1 {
     display: flex;
     justify-content: center;
 }
 
-div.bao-xemtiep1{
+div.bao-xemtiep1 {
     width: 120px;
 }
 
@@ -323,20 +323,23 @@ span.xemtiep1 {
     font-weight: bold;
 }
 
-div.tintuc-right{
+div.tintuc-right {
     border-left: groove;
     margin-top: 70px;
     height: 400px;
 }
 
-img.anhtinnho{
+img.anhtinnho {
     margin-right: 10px;
     margin-left: 10px;
     height: 18%;
     width: 28%;
 }
-
-div.tinnho{
+.card-div{
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+div.tinnho {
     display: flex;
     margin-top: 3%;
     font-size: 18px;
@@ -344,11 +347,16 @@ div.tinnho{
     color: rgb(206, 28, 18);
 }
 
-span.tinnho{
+span.tinnho {
     text-align: justify;
     width: 100%;
 }
-
+span.tinnho-black {
+    text-align: justify;
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+}
 a.tinnho:link,
 a.tinnho:visited {
     text-align: center;
@@ -369,14 +377,20 @@ a.tinnho:active {
     opacity: 0.8;
 }
 
-div.bao-tintuc-sukien{
-    margin-top: 20px;
+div.bao-tintuc-sukien {
     padding-left: 90px;
     padding-right: 90px;
     background-color: rgb(246, 242, 239);
 }
+
 /* Tintuc-Sukien */
-div.tintuc-sukien{
+
+.sukien-right{
+    background-color: rgb(232, 232, 224);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+div.tintuc-sukien {
     text-align: center;
 }
 
@@ -392,37 +406,73 @@ hr.hr-tintuc-sukien {
     margin-left: 25%;
     border-width: 2px;
 }
-div.btn-xem{
+
+div.btn-xem {
     border: solid rgb(1, 191, 98);
     border-radius: 30px;
+    margin-bottom: 15px;
 
 }
-.card img{
+h5.card-title{
+    margin-top: 10px;
+    color: rgb(206, 28, 18);
+}
+.card img {
     height: 200px;
 }
-.card .card-text{
-        font-size: 15px;
+
+.card-tin .card-text{
+    margin-top: 10px;
 }
+
+/* Doi tac */
+div.doitac {
+    background-color: rgb(232, 232, 224);
+}
+
+.doitac h3 {
+    color: rgb(206, 28, 18);
+}
+.doitac hr{
+    border: solid;
+    width: 50%;
+    margin-left: 25%;
+    border-width: 2px;
+}
+.doitac img{
+    padding: 5px;
+    width: 200px;
+    height: 128px;
+}
+
 /* Footer */
-footer{
+footer {
     background-color: #c92116;
     justify-content: center;
 }
-footer .social{
+
+footer .social {
     width: 25px;
     height: 25px;
     margin: 5px;
 }
-footer .footer-contract p{
+
+footer .footer-contract p {
     font-size: 14px;
     margin-bottom: 0;
 }
-footer .footer-contract h5 ,.footer-contract a,.footer-contract p, .footer-social h5{
+
+footer .footer-contract h5,
+.footer-contract a,
+.footer-contract p,
+.footer-social h5 {
     color: whitesmoke;
 }
-footer .footer-social{
-    font-family: Cursive,sans-serif;
+
+footer .footer-social {
+    font-family: Cursive, sans-serif;
 }
+
 @media screen and (max-width: 1200px) {
     nav.dienthoai {
         height: initial;
@@ -459,3 +509,30 @@ footer .footer-social{
         margin-top: 20px;
     }
 }
+/* Breadcrumb */
+.dieuhuong{
+    background-color: rgb(246, 242, 239);
+}
+ul.breadcrumb {
+    font-size: 13px;
+    padding: 10px 0 0 0 ;
+    list-style: none;
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
